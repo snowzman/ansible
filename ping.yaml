@@ -1,6 +1,6 @@
 ---
 - name: test ipconfig
-  hosts: "Windows Servers"
+  hosts: all
   tasks:
     - name: run ipconfig
       raw: ipconfig
