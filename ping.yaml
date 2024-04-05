@@ -1,5 +1,5 @@
 ---
-- hosts: srv01
+  hosts: srv01
   tasks:
     - name: run ipconfig
       raw: ipconfig
