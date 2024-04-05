@@ -1,6 +1,5 @@
 ---
-
 - hosts: all
-  gather_facts: false
   tasks:
-    - ping:
+   - name: Ping Windows Hosts
+     win_ping:
