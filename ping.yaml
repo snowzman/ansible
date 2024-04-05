@@ -1,4 +1,5 @@
 ---
+- name: test ipconfig
   hosts: srv01
   tasks:
     - name: run ipconfig
