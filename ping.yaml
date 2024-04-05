@@ -1,8 +1,5 @@
 ---
 - hosts: srv01
-  vars:
-    ansible_ssh_port: 5985
-    ansible_connection: winrm
   tasks:
    - name: Ping Windows Hosts
      win_ping:
