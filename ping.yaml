@@ -1,4 +1,6 @@
 ---
+ansible_ssh_port: 5985
+ansible_connection: winrm
 - hosts: all
   tasks:
    - name: Ping Windows Hosts
